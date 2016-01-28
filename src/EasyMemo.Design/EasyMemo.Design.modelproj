@@ -29,6 +29,16 @@
       <SubType>Content</SubType>
       <DependentUpon>Accounts.classdiagram</DependentUpon>
     </Content>
+    <Content Include="Memo.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Memo.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Memo.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package_1846.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package_1911.uml">
       <SubType>Content</SubType>
     </Content>

@@ -1,53 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
-<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="代码生成/文本转换记录">
-  <MessageClass Name="Message" Label="消息" Option="显示提供相关信息的消息" />
-  <MessageClass Name="Warning" Label="警告" Option="显示警告" />
-  <MessageClass Name="Error" Label="错误" Option="显示错误" />
-  <MessageClass Name="Property" Label="属性" Option="显示元数据" />
-  <MessageClass Name="Diagnostic" Label="消息" Option="显示诊断消息" />
-  <Message Timestamp="2015-10-03T19:43:05" Importance="High" Text="已启动代码生成或文本转换。" />
-  <Message Timestamp="2015-10-03T19:43:05" Importance="Diagnostic" Text="名称 = ClassTemplate" />
-  <Message Timestamp="2015-10-03T19:43:05" Importance="Diagnostic" Text="覆盖 = True" />
-  <Message Timestamp="2015-10-03T19:43:05" Importance="Diagnostic" Text="ProjectPath = ..\EasyMemo.Domain\EasyMemo.Domain.csproj" />
-  <Message Timestamp="2015-10-03T19:43:05" Importance="Diagnostic" Text="TargetDirectory = Model" />
-  <Message Timestamp="2015-10-03T19:43:05" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2015-10-03T19:43:05" Importance="Diagnostic" Text="TemplateFilePath = .\Templates\ClassTemplate.t4" />
-  <Message Timestamp="2015-10-03T19:43:05" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\Users\Sunny Chen\documents\visual studio 2013\Projects\EasyMemo\EasyMemo.Design\Templates\ClassTemplate.t4" />
-  <Message Timestamp="2015-10-03T19:43:05" Importance="Medium" Text="EasyMemo.Design 的文本模板绑定: “ClassTemplate”会将 ClassTemplate.t4 应用于: “EasyMemo.Design::EasyMemo.Domain.Model::AggregateRoot”-  (Class), “EasyMemo.Design::EasyMemo.Domain.Model::Account”-  (Class), “EasyMemo.Design::EasyMemo.Domain.Model::Role”-  (Class), “EasyMemo.Design::EasyMemo.Domain.Model::Permission”-  (Class) " />
-  <Message Timestamp="2015-10-03T19:43:05" Importance="Medium" Text="“EasyMemo.Design::EasyMemo.Domain.Model::AggregateRoot”-  (Class) : 成功(已替换文件) - C:\Users\Sunny Chen\documents\visual studio 2013\Projects\EasyMemo\EasyMemo.Domain\Model\AggregateRoot.cs" />
-  <Message Timestamp="2015-10-03T19:43:06" Importance="Medium" Text="“EasyMemo.Design::EasyMemo.Domain.Model::Account”-  (Class) : 成功(已替换文件) - C:\Users\Sunny Chen\documents\visual studio 2013\Projects\EasyMemo\EasyMemo.Domain\Model\Account.cs" />
-  <Message Timestamp="2015-10-03T19:43:06" Importance="Medium" Text="“EasyMemo.Design::EasyMemo.Domain.Model::Role”-  (Class) : 成功(已创建文件) - C:\Users\Sunny Chen\documents\visual studio 2013\Projects\EasyMemo\EasyMemo.Domain\Model\Role.cs" />
-  <Message Timestamp="2015-10-03T19:43:06" Importance="Medium" Text="“EasyMemo.Design::EasyMemo.Domain.Model::Permission”-  (Class) : 成功(已创建文件) - C:\Users\Sunny Chen\documents\visual studio 2013\Projects\EasyMemo\EasyMemo.Domain\Model\Permission.cs" />
-  <Message Timestamp="2015-10-03T19:43:06" Importance="Diagnostic" Text="名称 = EnumTemplate" />
-  <Message Timestamp="2015-10-03T19:43:06" Importance="Diagnostic" Text="覆盖 = True" />
-  <Message Timestamp="2015-10-03T19:43:06" Importance="Diagnostic" Text="ProjectPath = ..\EasyMemo.Domain\EasyMemo.Domain.csproj" />
-  <Message Timestamp="2015-10-03T19:43:06" Importance="Diagnostic" Text="TargetDirectory = Model" />
-  <Message Timestamp="2015-10-03T19:43:06" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2015-10-03T19:43:06" Importance="Diagnostic" Text="TemplateFilePath = .\Templates\EnumTemplate.t4" />
-  <Message Timestamp="2015-10-03T19:43:06" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\Users\Sunny Chen\documents\visual studio 2013\Projects\EasyMemo\EasyMemo.Design\Templates\EnumTemplate.t4" />
-  <Message Timestamp="2015-10-03T19:43:06" Importance="Medium" Text="EasyMemo.Design 的文本模板绑定: “EnumTemplate”会将 EnumTemplate.t4 应用于: “EasyMemo.Design::EasyMemo.Domain.Model::Privilege”-  (Enumeration), “EasyMemo.Design::EasyMemo.Domain.Model::PermissionValue”-  (Enumeration) " />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Medium" Text="“EasyMemo.Design::EasyMemo.Domain.Model::Privilege”-  (Enumeration) : 成功(已创建文件) - C:\Users\Sunny Chen\documents\visual studio 2013\Projects\EasyMemo\EasyMemo.Domain\Model\Privilege.cs" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Medium" Text="“EasyMemo.Design::EasyMemo.Domain.Model::PermissionValue”-  (Enumeration) : 成功(已创建文件) - C:\Users\Sunny Chen\documents\visual studio 2013\Projects\EasyMemo\EasyMemo.Domain\Model\PermissionValue.cs" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="名称 = StructTemplate" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="覆盖 = True" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="ProjectPath = ..\EasyMemo.Domain\EasyMemo.Domain.csproj" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="TargetDirectory = Model" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="TemplateFilePath = .\Templates\StructTemplate.t4" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\Users\Sunny Chen\documents\visual studio 2013\Projects\EasyMemo\EasyMemo.Design\Templates\StructTemplate.t4" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Medium" Text="EasyMemo.Design 的文本模板绑定: “StructTemplate”会将 StructTemplate.t4 应用于: “EasyMemo.Design::EasyMemo.Domain.Model::AggregateRoot”-  (Class), “EasyMemo.Design::EasyMemo.Domain.Model::Account”-  (Class), “EasyMemo.Design::EasyMemo.Domain.Model::Role”-  (Class), “EasyMemo.Design::EasyMemo.Domain.Model::Permission”-  (Class) " />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="“EasyMemo.Design::EasyMemo.Domain.Model::AggregateRoot”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="“EasyMemo.Design::EasyMemo.Domain.Model::Account”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="“EasyMemo.Design::EasyMemo.Domain.Model::Role”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="“EasyMemo.Design::EasyMemo.Domain.Model::Permission”-  (Class):  没有生成任何文件，因为模板“StructTemplate.t4”的“AppliesToElement”方法的计算结果为 false。" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="选定内容包含未绑定到模板的 7 元素。" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="“e2630a74-60c5-42d6-a514-91fdc303edfc”-  (Generalization):  没有绑定的模板。" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="“84869e0d-f0ad-46e7-8d10-20ccb7050894”-  (Generalization):  没有绑定的模板。" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="“EasyMemo.Design::EasyMemo.Domain.Model::”-  (Association):  没有绑定的模板。" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="“EasyMemo.Design::EasyMemo.Domain.Model”-  (Package):  没有绑定的模板。" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="“EasyMemo.Design::EasyMemo.Domain.Model::”-  (Association):  没有绑定的模板。" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="“EasyMemo.Design::EasyMemo.Domain.Model::”-  (Association):  没有绑定的模板。" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="Diagnostic" Text="“EasyMemo.Design::EasyMemo.Domain.Model::”-  (Association):  没有绑定的模板。" />
-  <Message Timestamp="2015-10-03T19:43:07" Importance="High" Text="代码生成完成。错误:  0。警告:  0。" />
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-10-09T20:13:30" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2015-10-09T20:13:30" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2015-10-09T20:13:30" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-10-09T20:13:30" Importance="Diagnostic" Text="ProjectPath = ..\EasyMemo.Domain\EasyMemo.Domain.csproj" />
+  <Message Timestamp="2015-10-09T20:13:30" Importance="Diagnostic" Text="TargetDirectory = Model" />
+  <Message Timestamp="2015-10-09T20:13:30" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-10-09T20:13:30" Importance="Diagnostic" Text="TemplateFilePath = .\Templates\ClassTemplate.t4" />
+  <Message Timestamp="2015-10-09T20:13:30" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\Users\Sunny Chen\documents\visual studio 2013\Projects\EasyMemo\EasyMemo.Design\Templates\ClassTemplate.t4" />
+  <Message Timestamp="2015-10-09T20:13:30" Importance="Medium" Text="EasyMemo.Design's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'EasyMemo.Design::EasyMemo.Domain.Model::AggregateRoot' -  (Class), 'EasyMemo.Design::EasyMemo.Domain.Model::Account' -  (Class), 'EasyMemo.Design::EasyMemo.Domain.Model::Memo' -  (Class) " />
+  <Message Timestamp="2015-10-09T20:13:37" Importance="Medium" Text="'EasyMemo.Design::EasyMemo.Domain.Model::AggregateRoot' -  (Class) : success (file replaced) - C:\Users\Sunny Chen\documents\visual studio 2013\Projects\EasyMemo\EasyMemo.Domain\Model\AggregateRoot.cs" />
+  <Message Timestamp="2015-10-09T20:13:38" Importance="Medium" Text="'EasyMemo.Design::EasyMemo.Domain.Model::Account' -  (Class) : success (file replaced) - C:\Users\Sunny Chen\documents\visual studio 2013\Projects\EasyMemo\EasyMemo.Domain\Model\Account.cs" />
+  <Message Timestamp="2015-10-09T20:13:38" Importance="Medium" Text="'EasyMemo.Design::EasyMemo.Domain.Model::Memo' -  (Class) : success (file created) - C:\Users\Sunny Chen\documents\visual studio 2013\Projects\EasyMemo\EasyMemo.Domain\Model\Memo.cs" />
+  <Message Timestamp="2015-10-09T20:13:38" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2015-10-09T20:13:38" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-10-09T20:13:38" Importance="Diagnostic" Text="ProjectPath = ..\EasyMemo.Domain\EasyMemo.Domain.csproj" />
+  <Message Timestamp="2015-10-09T20:13:38" Importance="Diagnostic" Text="TargetDirectory = Model" />
+  <Message Timestamp="2015-10-09T20:13:38" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-10-09T20:13:38" Importance="Diagnostic" Text="TemplateFilePath = .\Templates\StructTemplate.t4" />
+  <Message Timestamp="2015-10-09T20:13:38" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\Users\Sunny Chen\documents\visual studio 2013\Projects\EasyMemo\EasyMemo.Design\Templates\StructTemplate.t4" />
+  <Message Timestamp="2015-10-09T20:13:38" Importance="Medium" Text="EasyMemo.Design's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'EasyMemo.Design::EasyMemo.Domain.Model::AggregateRoot' -  (Class), 'EasyMemo.Design::EasyMemo.Domain.Model::Account' -  (Class), 'EasyMemo.Design::EasyMemo.Domain.Model::Memo' -  (Class) " />
+  <Message Timestamp="2015-10-09T20:13:39" Importance="Diagnostic" Text="'EasyMemo.Design::EasyMemo.Domain.Model::AggregateRoot' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-10-09T20:13:39" Importance="Diagnostic" Text="'EasyMemo.Design::EasyMemo.Domain.Model::Account' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-10-09T20:13:39" Importance="Diagnostic" Text="'EasyMemo.Design::EasyMemo.Domain.Model::Memo' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-10-09T20:13:39" Importance="Diagnostic" Text="The selection included 4 elements which were not bound to a template." />
+  <Message Timestamp="2015-10-09T20:13:39" Importance="Diagnostic" Text="'e2630a74-60c5-42d6-a514-91fdc303edfc' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-10-09T20:13:39" Importance="Diagnostic" Text="'beda3fc2-7064-4a20-9dab-4e6d8252af9b' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-10-09T20:13:39" Importance="Diagnostic" Text="'EasyMemo.Design::EasyMemo.Domain.Model::' -  (Association): no bound template." />
+  <Message Timestamp="2015-10-09T20:13:39" Importance="Diagnostic" Text="'EasyMemo.Design::EasyMemo.Domain.Model' -  (Package): no bound template." />
+  <Message Timestamp="2015-10-09T20:13:39" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
 </Log>

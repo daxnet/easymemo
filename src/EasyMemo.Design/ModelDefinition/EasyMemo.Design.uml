@@ -140,6 +140,12 @@
         LastKnownName="EasyMemo.Domain.Model"
         LastKnownLocation="Package_1923.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="37a1237f-a16b-40dc-9b46-eb1295581ca5"
+        LastKnownName="EasyMemo.Domain.Model"
+        LastKnownLocation="Package_1846.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

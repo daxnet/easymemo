@@ -11,15 +11,27 @@ namespace EasyMemo.Domain.Model
 	using System.Linq;
 	using System.Text;
 
-	public abstract partial class AggregateRoot : Apworks.IAggregateRoot
+	public partial class Memo : AggregateRoot
 	{
-		public virtual Guid ID
+		public virtual string Title
 		{
 			get;
 			set;
 		}
 
-		public virtual Nullable<bool> IsDeleted
+		public virtual string Content
+		{
+			get;
+			set;
+		}
+
+		public virtual DateTime DateAdded
+		{
+			get;
+			set;
+		}
+
+		public virtual Nullable<DateTime> DateModified
 		{
 			get;
 			set;

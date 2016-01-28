@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Model\Account.cs" />
     <Compile Include="Model\AggregateRoot.cs" />
+    <Compile Include="Model\Memo.cs" />
     <Compile Include="Model\Permission.cs" />
     <Compile Include="Model\PermissionValue.cs" />
     <Compile Include="Model\Privilege.cs" />
