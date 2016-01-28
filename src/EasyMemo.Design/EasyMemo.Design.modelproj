@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c1ee8d11-945e-4302-bfb3-828c87785cdb}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>EasyMemo.Design</Name>
+    <RootNamespace>EasyMemo.Design</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Content Include="Accounts.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Accounts.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Accounts.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package_1911.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1923.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Templates\ClassTemplate.t4">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Templates\CSharpCommentHelpers.t4">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Templates\CSharpHelpers.t4">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Templates\CSharpStereotypeHelpers.t4">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Templates\EnumTemplate.t4">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Templates\InterfaceTemplate.t4">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Templates\StructTemplate.t4">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Templates\TemplateHeader.t4">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="Model.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Model.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Model.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\EasyMemo.Design.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Templates\" />
+  </ItemGroup>
+</Project>

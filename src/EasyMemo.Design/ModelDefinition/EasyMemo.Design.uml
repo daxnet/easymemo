@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="9f56db15-8618-4d8d-8a6b-18e85909f42d"
+  name="EasyMemo.Design" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <appliedStereotypesInternal>
+    <stereotypeInstance
+      Id="361e94b5-f781-4d4c-8524-fa9985c6cc46"
+      name="namespace"
+      profile="CSharpProfile">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="f5c29d39-e679-436a-b621-22e5cb91708d">
+          <propertyInstance
+            Id="4f25400f-bf3e-479c-9b37-0e3f74fb6545"
+            name="BaseName" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="39a8465c-fb18-4372-83a6-742d5812a37c">
+          <propertyInstance
+            Id="5111ce84-4b93-4862-9a8e-c0f30649a437"
+            name="ClrAttributes" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="834a396b-8f56-4c41-96e0-ad0b2b11b2fa">
+          <propertyInstance
+            Id="5bfb659a-9f2c-4cae-8c12-2f81f45ad2f8"
+            name="Usings" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance
+      Id="771f76ad-0cf5-45bb-bcad-6a8c37a1a532"
+      name="TextTemplateBindings"
+      profile="TextTemplateBindings">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="63392e07-45c1-4158-a394-74ee139e6d9a">
+          <propertyInstance
+            Id="fee90ec6-b5d5-4772-be1c-c65c3a08518a"
+            name="Alias"
+            value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="fea3fa91-dedc-4753-9dec-8806fec0d9fb">
+          <propertyInstance
+            Id="543611e8-c7d4-45f5-a516-6db10823f0c3"
+            name="TemplateFilePath"
+            value="ClassTemplate=.\Templates\ClassTemplate.t4|EnumTemplate=.\Templates\EnumTemplate.t4|InterfaceTemplate=.\Templates\InterfaceTemplate.t4|StructTemplate=.\Templates\StructTemplate.t4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="98bb9d68-4656-4437-9b65-9f834c9bfbfe">
+          <propertyInstance
+            Id="6927bec9-0572-46ca-bc3a-eac99bf97bc2"
+            name="ProjectPath"
+            value="ClassTemplate=..\EasyMemo.Domain\EasyMemo.Domain.csproj|EnumTemplate=..\EasyMemo.Domain\EasyMemo.Domain.csproj|InterfaceTemplate=..\EasyMemo.Domain\EasyMemo.Domain.csproj|StructTemplate=..\EasyMemo.Domain\EasyMemo.Domain.csproj" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="531d3349-5d60-4028-b713-b42e2554c375">
+          <propertyInstance
+            Id="2e18927f-7294-4547-a3e7-0b4062347219"
+            name="TargetDirectory"
+            value="ClassTemplate=Model|EnumTemplate=Model|InterfaceTemplate=Model|StructTemplate=Model" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="a3a1e28f-0bb7-4032-b555-35b05e363c61">
+          <propertyInstance
+            Id="f2dbdf3a-c38e-4364-a2d1-cd78f5c42759"
+            name="TargetName"
+            value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="138f5dec-8a32-48cd-bb34-e8544c9947f3">
+          <propertyInstance
+            Id="c20b6c39-6803-47dd-8321-09ce7b31d249"
+            name="Overwrite"
+            value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="d24c6c87-fb13-4bfb-9b23-ea96904b9688">
+          <propertyInstance
+            Id="bd0d68a2-aceb-4187-8a2d-213c91d69fdf"
+            name="Parameters" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="97fce2c7-b519-4619-a53d-d94902375906">
+      <profileInstance
+        Id="c9924df8-df26-4d9c-ba00-2165db1abfbc"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="d28b8cf4-2ee3-4f18-bec9-bb112d3cb2da">
+      <profileInstance
+        Id="8e17d057-8a78-480f-9240-2e2a835a66c1"
+        name="ApworksEntityProfile" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="5670b960-06a7-4be4-a7a5-2ee656137a97">
+      <profileInstance
+        Id="6ddf10f9-d38a-4ceb-8cac-944e43e65fa7"
+        name="TextTemplateBindings" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="aabc3a25-bda1-4b7f-bd27-a1690fa7dea7"
+        name="Guid" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="43d5b818-b62c-483f-a57d-c865e9dc49f1"
+        name="Nullable&lt;bool&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="429bbf8a-fff9-48c8-8b6f-95fee0248549"
+        LastKnownName="EasyMemo.Domain.Model"
+        LastKnownLocation="Package_1911.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="87c5da3a-a384-4a71-b728-b5965a8956d4"
+        LastKnownName="EasyMemo.Domain.Model"
+        LastKnownLocation="Package_1923.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

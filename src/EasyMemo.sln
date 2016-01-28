@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMemo.Common", "EasyMemo.Common\EasyMemo.Common.csproj", "{5D4C5AC2-DDA4-4D3F-B4E7-682977339119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMemo.Domain", "EasyMemo.Domain\EasyMemo.Domain.csproj", "{FD3E4FEF-7706-4703-BC63-2B7822277CD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMemo.Repositories", "EasyMemo.Repositories\EasyMemo.Repositories.csproj", "{4EBBE28E-6C8A-4592-8C9E-6A5216E8DAB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMemo.Services", "EasyMemo.Services\EasyMemo.Services.csproj", "{CDB6C832-7F14-4B1F-9F5E-7FE94C969379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyMemo.Web", "EasyMemo.Web\EasyMemo.Web.csproj", "{3FCEF61A-3168-4BD3-AF4E-820F8CDD254F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3ECBEF4E-25B5-4FE1-BB68-AA5D0D1B87F9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "EasyMemo.Design", "EasyMemo.Design\EasyMemo.Design.modelproj", "{C1EE8D11-945E-4302-BFB3-828C87785CDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D4C5AC2-DDA4-4D3F-B4E7-682977339119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4C5AC2-DDA4-4D3F-B4E7-682977339119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4C5AC2-DDA4-4D3F-B4E7-682977339119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4C5AC2-DDA4-4D3F-B4E7-682977339119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3E4FEF-7706-4703-BC63-2B7822277CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3E4FEF-7706-4703-BC63-2B7822277CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3E4FEF-7706-4703-BC63-2B7822277CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3E4FEF-7706-4703-BC63-2B7822277CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EBBE28E-6C8A-4592-8C9E-6A5216E8DAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBBE28E-6C8A-4592-8C9E-6A5216E8DAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBBE28E-6C8A-4592-8C9E-6A5216E8DAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBBE28E-6C8A-4592-8C9E-6A5216E8DAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB6C832-7F14-4B1F-9F5E-7FE94C969379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB6C832-7F14-4B1F-9F5E-7FE94C969379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB6C832-7F14-4B1F-9F5E-7FE94C969379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB6C832-7F14-4B1F-9F5E-7FE94C969379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FCEF61A-3168-4BD3-AF4E-820F8CDD254F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCEF61A-3168-4BD3-AF4E-820F8CDD254F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCEF61A-3168-4BD3-AF4E-820F8CDD254F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCEF61A-3168-4BD3-AF4E-820F8CDD254F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1EE8D11-945E-4302-BFB3-828C87785CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1EE8D11-945E-4302-BFB3-828C87785CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1EE8D11-945E-4302-BFB3-828C87785CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1EE8D11-945E-4302-BFB3-828C87785CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
